@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <!-- ===== Glow Filters ===== -->
+    <filter id="glow-cyan-12" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+    </filter>
+    <filter id="glow-cyan-6" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+    </filter>
+    <filter id="glow-cyan-3" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+    </filter>
+    <filter id="glow-pink-12" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+    </filter>
+    <filter id="glow-pink-6" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+    </filter>
+    <filter id="glow-pink-3" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+    </filter>
+    <filter id="glow-cyan-24" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24" result="blur"/>
+    </filter>
+    <filter id="glow-pink-24" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24" result="blur"/>
+    </filter>
+
+    <!-- ===== Background Texture ===== -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+      <feComponentTransfer in="grayNoise" result="faintNoise">
+        <feFuncA type="linear" slope="0.04"/>
+      </feComponentTransfer>
+      <feComposite operator="in" in="faintNoise" in2="SourceGraphic" result="composite"/>
+      <feBlend mode="multiply" in="composite" in2="SourceGraphic"/>
+    </filter>
+
+    <!-- ===== Background Gradient ===== -->
+    <radialGradient id="bg-gradient" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#14141e"/>
+      <stop offset="60%" stop-color="#0d0d14"/>
+      <stop offset="100%" stop-color="#05050a"/>
+    </radialGradient>
+
+    <!-- ===== Sign Board Gradient ===== -->
+    <linearGradient id="board-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#16162a"/>
+      <stop offset="100%" stop-color="#121220"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== Background Wall ===== -->
+  <rect width="800" height="200" fill="url(#bg-gradient)"/>
+  <rect width="800" height="200" fill="#0a0a14" filter="url(#noise)"/>
+
+  <!-- ===== Ambient Wall Light (cyan side) ===== -->
+  <ellipse cx="400" cy="90" rx="300" ry="80" fill="#00e5ff" opacity="0.03" filter="url(#glow-cyan-24)"/>
+
+  <!-- ===== Ambient Wall Light (pink side) ===== -->
+  <ellipse cx="400" cy="145" rx="250" ry="50" fill="#ff4088" opacity="0.03" filter="url(#glow-pink-24)"/>
+
+  <!-- ===== Sign Board ===== -->
+  <rect x="40" y="15" width="720" height="170" rx="8" ry="8" fill="url(#board-gradient)" stroke="#252540" stroke-width="2"/>
+  <!-- Board inner border -->
+  <rect x="46" y="21" width="708" height="158" rx="5" ry="5" fill="none" stroke="#1e1e35" stroke-width="1"/>
+
+  <!-- ===== Mounting Screws ===== -->
+  <circle cx="60" cy="35" r="4" fill="#1a1a2e" stroke="#2a2a45" stroke-width="1"/>
+  <circle cx="740" cy="35" r="4" fill="#1a1a2e" stroke="#2a2a45" stroke-width="1"/>
+  <circle cx="60" cy="165" r="4" fill="#1a1a2e" stroke="#2a2a45" stroke-width="1"/>
+  <circle cx="740" cy="165" r="4" fill="#1a1a2e" stroke="#2a2a45" stroke-width="1"/>
+
+  <!-- ===== LINE 1: KEEP CODING (Cyan Neon) ===== -->
+  <g text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-weight="900" font-size="46" letter-spacing="8">
+    <!-- Ambient halo -->
+    <text x="400" y="95" fill="#00e5ff" opacity="0.08" filter="url(#glow-cyan-24)">KEEP CODING</text>
+    <!-- Outer glow -->
+    <text x="400" y="95" fill="#00e5ff" opacity="0.18" filter="url(#glow-cyan-12)">KEEP CODING</text>
+    <!-- Mid glow -->
+    <text x="400" y="95" fill="#00e5ff" opacity="0.35" filter="url(#glow-cyan-6)">KEEP CODING</text>
+    <!-- Inner glow -->
+    <text x="400" y="95" fill="#7af0ff" opacity="0.55" filter="url(#glow-cyan-3)">KEEP CODING</text>
+    <!-- Core tube -->
+    <text x="400" y="95" fill="#e0faff">KEEP CODING</text>
+  </g>
+
+  <!-- ===== LINE 2: keep learning every day (Pink Neon) ===== -->
+  <g text-anchor="middle" font-family="'Courier New',Consolas,'Fira Code',monospace" font-weight="600" font-size="26" letter-spacing="3">
+    <!-- Ambient halo -->
+    <text x="400" y="148" fill="#ff4088" opacity="0.08" filter="url(#glow-pink-24)">keep learning every day</text>
+    <!-- Outer glow -->
+    <text x="400" y="148" fill="#ff4088" opacity="0.18" filter="url(#glow-pink-12)">keep learning every day</text>
+    <!-- Mid glow -->
+    <text x="400" y="148" fill="#ff4088" opacity="0.35" filter="url(#glow-pink-6)">keep learning every day</text>
+    <!-- Inner glow -->
+    <text x="400" y="148" fill="#ff80ab" opacity="0.55" filter="url(#glow-pink-3)">keep learning every day</text>
+    <!-- Core tube -->
+    <text x="400" y="148" fill="#ffd0e0">keep learning every day</text>
+  </g>
+
+  <!-- ===== Decorative Neon Dots (corners of sign) ===== -->
+  <!-- Top-left dot -->
+  <circle cx="56" cy="31" r="2" fill="#00e5ff" opacity="0.8"/>
+  <circle cx="56" cy="31" r="6" fill="#00e5ff" opacity="0.15" filter="url(#glow-cyan-6)"/>
+  <!-- Top-right dot -->
+  <circle cx="744" cy="31" r="2" fill="#00e5ff" opacity="0.8"/>
+  <circle cx="744" cy="31" r="6" fill="#00e5ff" opacity="0.15" filter="url(#glow-cyan-6)"/>
+  <!-- Bottom-left dot -->
+  <circle cx="56" cy="169" r="2" fill="#ff4088" opacity="0.8"/>
+  <circle cx="56" cy="169" r="6" fill="#ff4088" opacity="0.15" filter="url(#glow-pink-6)"/>
+  <!-- Bottom-right dot -->
+  <circle cx="744" cy="169" r="2" fill="#ff4088" opacity="0.8"/>
+  <circle cx="744" cy="169" r="6" fill="#ff4088" opacity="0.15" filter="url(#glow-pink-6)"/>
+
+  <!-- ===== SMIL Pulse Animation on Sign Border ===== -->
+  <rect x="40" y="15" width="720" height="170" rx="8" ry="8" fill="none" stroke="#00e5ff" stroke-width="1" opacity="0.15">
+    <animate attributeName="opacity" values="0.15;0.25;0.10;0.20;0.15" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
