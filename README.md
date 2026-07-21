@@ -20,31 +20,6 @@
 
 ---
 
-### 🧰 Languages & Tools
-
-<p align="center">
-  <!-- Customize these badges with your own tools! -->
-  <img src="https://img.shields.io/badge/Editor-VSCode-00e5ff?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="editor"/>
-  <img src="https://img.shields.io/badge/OS-Windows-ff4088?style=for-the-badge&logo=windows&logoColor=white" alt="os"/>
-  <img src="https://img.shields.io/badge/Tool-Git-00e5ff?style=for-the-badge&logo=git&logoColor=white" alt="git"/>
-  <img src="https://img.shields.io/badge/Platform-GitHub-ff4088?style=for-the-badge&logo=github&logoColor=white" alt="github"/>
-</p>
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=XLi-hub&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=ff4088&text_color=c9d1d9" alt="stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=XLi-hub&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=c9d1d9" alt="top langs" height="165">
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=XLi-hub&theme=tokyonight&hide_border=true&background=0d1117&stroke=00e5ff&ring=ff4088&fire=ff4088&currStreakLabel=00e5ff" alt="streak">
-</p>
-
----
-
 <p align="center">
   <sub>✨ Powered by late nights &amp; neon dreams</sub>
 </p>
