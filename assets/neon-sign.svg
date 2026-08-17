@@ -73,32 +73,32 @@
   <circle cx="60" cy="165" r="4" fill="#1a1a2e" stroke="#2a2a45" stroke-width="1"/>
   <circle cx="740" cy="165" r="4" fill="#1a1a2e" stroke="#2a2a45" stroke-width="1"/>
 
-  <!-- ===== LINE 1: KEEP CODING (Cyan Neon) ===== -->
+  <!-- ===== LINE 1: HELLO WORLD (Cyan Neon) ===== -->
   <g text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-weight="900" font-size="46" letter-spacing="8">
     <!-- Ambient halo -->
-    <text x="400" y="95" fill="#00e5ff" opacity="0.08" filter="url(#glow-cyan-24)">KEEP CODING</text>
+    <text x="400" y="95" fill="#00e5ff" opacity="0.08" filter="url(#glow-cyan-24)">HELLO WORLD</text>
     <!-- Outer glow -->
-    <text x="400" y="95" fill="#00e5ff" opacity="0.18" filter="url(#glow-cyan-12)">KEEP CODING</text>
+    <text x="400" y="95" fill="#00e5ff" opacity="0.18" filter="url(#glow-cyan-12)">HELLO WORLD</text>
     <!-- Mid glow -->
-    <text x="400" y="95" fill="#00e5ff" opacity="0.35" filter="url(#glow-cyan-6)">KEEP CODING</text>
+    <text x="400" y="95" fill="#00e5ff" opacity="0.35" filter="url(#glow-cyan-6)">HELLO WORLD</text>
     <!-- Inner glow -->
-    <text x="400" y="95" fill="#7af0ff" opacity="0.55" filter="url(#glow-cyan-3)">KEEP CODING</text>
+    <text x="400" y="95" fill="#7af0ff" opacity="0.55" filter="url(#glow-cyan-3)">HELLO WORLD</text>
     <!-- Core tube -->
-    <text x="400" y="95" fill="#e0faff">KEEP CODING</text>
+    <text x="400" y="95" fill="#e0faff">HELLO WORLD</text>
   </g>
 
-  <!-- ===== LINE 2: keep learning every day (Pink Neon) ===== -->
+  <!-- ===== LINE 2: still shipping (Pink Neon) ===== -->
   <g text-anchor="middle" font-family="'Courier New',Consolas,'Fira Code',monospace" font-weight="600" font-size="26" letter-spacing="3">
     <!-- Ambient halo -->
-    <text x="400" y="148" fill="#ff4088" opacity="0.08" filter="url(#glow-pink-24)">keep learning every day</text>
+    <text x="400" y="148" fill="#ff4088" opacity="0.08" filter="url(#glow-pink-24)">still shipping</text>
     <!-- Outer glow -->
-    <text x="400" y="148" fill="#ff4088" opacity="0.18" filter="url(#glow-pink-12)">keep learning every day</text>
+    <text x="400" y="148" fill="#ff4088" opacity="0.18" filter="url(#glow-pink-12)">still shipping</text>
     <!-- Mid glow -->
-    <text x="400" y="148" fill="#ff4088" opacity="0.35" filter="url(#glow-pink-6)">keep learning every day</text>
+    <text x="400" y="148" fill="#ff4088" opacity="0.35" filter="url(#glow-pink-6)">still shipping</text>
     <!-- Inner glow -->
-    <text x="400" y="148" fill="#ff80ab" opacity="0.55" filter="url(#glow-pink-3)">keep learning every day</text>
+    <text x="400" y="148" fill="#ff80ab" opacity="0.55" filter="url(#glow-pink-3)">still shipping</text>
     <!-- Core tube -->
-    <text x="400" y="148" fill="#ffd0e0">keep learning every day</text>
+    <text x="400" y="148" fill="#ffd0e0">still shipping</text>
   </g>
 
   <!-- ===== Decorative Neon Dots (corners of sign) ===== -->
