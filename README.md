@@ -2,13 +2,13 @@
 
 Undergraduate in Automation at **South China University of Technology (SCUT)** · Guangzhou, China
 
-I'm interested in how AI agents remember, collaborate, and learn from experience.
+I'm interested in building embodied agents that connect planning, memory, and reusable skills with real-world execution.
 
 ### Research Interests
 
-**Multi-Agent Systems** · **Agent Memory** · **Long-Horizon Reasoning**
-
-Currently exploring memory sharing and complementary exploration in parallel agent teams.
+- **Agentic Planning:** Long-horizon task decomposition, multi-agent coordination, and feedback-driven replanning.
+- **Agent Skills & Memory:** Multi-Agent Memory (MAS Memory), shared-state consistency, and experience-driven skill retrieval and reuse.
+- **Embodied Intelligence:** Grounding task plans in perception, connecting high-level decisions to robot skills, and monitoring execution for failure recovery.
 
 ### Tools & Technologies
 
@@ -22,8 +22,8 @@ Currently exploring memory sharing and complementary exploration in parallel age
 
 ### Current Focus
 
-- Studying shared memory and coordination in multi-agent research systems.
-- Reproducing research ideas and understanding their behavior through experiments.
+- Exploring selective memory sharing and complementary exploration in parallel agent teams.
+- Investigating how memory and reusable skills can support long-horizon embodied tasks.
 - Building agent tools and contributing to [pi-subagents](https://github.com/nicobailon/pi-subagents/pulls?q=is%3Apr+author%3AXLi-hub+is%3Amerged).
 
 ---
