@@ -25,8 +25,3 @@ I'm interested in building embodied agents that connect planning, memory, and re
 - Exploring selective memory sharing and complementary exploration in parallel agent teams.
 - Investigating how memory and reusable skills can support long-horizon embodied tasks.
 - Building agent tools and contributing to [pi-subagents](https://github.com/nicobailon/pi-subagents/pulls?q=is%3Apr+author%3AXLi-hub+is%3Amerged).
-
----
-
-[![Followers](https://img.shields.io/github/followers/XLi-hub?label=Followers&style=flat-square&color=555)](https://github.com/XLi-hub?tab=followers)
-[![Stars](https://img.shields.io/github/stars/XLi-hub?label=Stars&style=flat-square&color=555)](https://github.com/XLi-hub?tab=repositories)
