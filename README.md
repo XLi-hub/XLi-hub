@@ -24,7 +24,7 @@ Currently exploring memory sharing and complementary exploration in parallel age
 
 - Studying shared memory and coordination in multi-agent research systems.
 - Reproducing research ideas and understanding their behavior through experiments.
-- Building agent tools and contributing to open source.
+- Building agent tools and contributing to [pi-subagents](https://github.com/nicobailon/pi-subagents/pulls?q=is%3Apr+author%3AXLi-hub+is%3Amerged).
 
 ---
 
