@@ -1,25 +1,32 @@
-<div align="center">
+# Hi, I'm Xiang Li 👋
 
-<!-- ===== NEON SIGN ===== -->
-<a href="https://github.com/XLi-hub">
-  <img src="assets/neon-sign.svg" alt="HELLO WORLD · still shipping" width="800">
-</a>
+Undergraduate in Automation at **South China University of Technology (SCUT)** · Guangzhou, China
 
-<br/>
+I'm interested in how AI agents remember, collaborate, and learn from experience.
 
-<!-- ===== TYPING SVG ===== -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&random=false&width=500&height=45&lines=console.log%28%27Hello+World%27%29;%3E+still+building...;%3E+still+shipping...;%3E+still+learning..." alt="Typing SVG">
-</a>
+### Research Interests
 
-<br/>
+**Multi-Agent Systems** · **Agent Memory** · **Long-Horizon Reasoning**
 
-<img src="https://komarev.com/ghpvc/?username=XLi-hub&color=00e5ff&style=flat-square&label=VISITORS" alt="profile views">
+Currently exploring memory sharing and complementary exploration in parallel agent teams.
 
-</div>
+### Tools & Technologies
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+### Current Focus
+
+- Studying shared memory and coordination in multi-agent research systems.
+- Reproducing research ideas and understanding their behavior through experiments.
+- Building agent tools and contributing to open source.
 
 ---
 
-<p align="center">
-  <sub>✨ Powered by late nights &amp; neon dreams</sub>
-</p>
+[![Followers](https://img.shields.io/github/followers/XLi-hub?label=Followers&style=flat-square&color=555)](https://github.com/XLi-hub?tab=followers)
+[![Stars](https://img.shields.io/github/stars/XLi-hub?label=Stars&style=flat-square&color=555)](https://github.com/XLi-hub?tab=repositories)
